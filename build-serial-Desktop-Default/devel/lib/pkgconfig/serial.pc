@@ -1,0 +1,8 @@
+prefix=/home/relaybot/catkin_ws/src/myserial/build-serial-Desktop-Default/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/relaybot/catkin_ws/src/myserial/serial/include
+Libs: -L/home/relaybot/catkin_ws/src/myserial/build-serial-Desktop-Default/devel/lib -lserial -lrt -lpthread
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/relaybot/catkin_ws/src/myserial/build-my_serial_node-Desktop-Default/devel
+
+Name: my_serial_node
+Description: Description of my_serial_node
+Version: 0.0.0
+Cflags: -I/home/relaybot/catkin_ws/src/myserial/my_serial_node/include
+Libs: -L/home/relaybot/catkin_ws/src/myserial/build-my_serial_node-Desktop-Default/devel/lib 
+Requires: serial std_msgs

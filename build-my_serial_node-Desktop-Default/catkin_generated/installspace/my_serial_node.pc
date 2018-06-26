@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: my_serial_node
+Description: Description of my_serial_node
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: serial std_msgs

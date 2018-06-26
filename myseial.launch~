@@ -1,0 +1,9 @@
+<launch>     
+    <!-- run turtlesim -->
+    <node pkg="my_serial_node" type="myserialnode" name="serial" output="screen">
+    </node>
+    <!-- run turtle_teleop_key.launch -->
+    <node pkg="my_serial_node" type="listener" name="listener" output="screen">
+    
+    </node>
+</launch>

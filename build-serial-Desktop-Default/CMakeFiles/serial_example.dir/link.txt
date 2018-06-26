@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/serial_example.dir/examples/serial_example.cc.o  -o devel/lib/serial/serial_example -rdynamic devel/lib/libserial.so -lrt -lpthread -Wl,-rpath,/home/relaybot/catkin_ws/src/myserial/build-serial-Desktop-Default/devel/lib 

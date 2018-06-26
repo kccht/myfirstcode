@@ -1,0 +1,22 @@
+#ifndef _CRC_H_
+#define _CRC_H_
+
+#include <iostream>
+#include "std_msgs/UInt8.h"
+#include <stdio.h>
+ //#include < stdint.h>
+namespace crc {
+class CRC
+{
+
+    public:
+                int cc11;
+                void sayHello(void);
+                uint8_t sum(uint8_t *buf,uint8_t i,uint8_t number);
+                unsigned int CRC16(unsigned char* pchMsg, unsigned int wDataLen);
+};
+
+
+
+}
+ #endif

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/relaybot/catkin_ws/src/myserial/build-my_serial_node-Desktop-Default/devel/setup.sh
